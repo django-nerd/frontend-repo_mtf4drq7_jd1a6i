@@ -10,11 +10,11 @@ function Navbar() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <a href="#" className="text-lg font-semibold tracking-tight text-rose-900">Casa Rosada</a>
         <div className="hidden gap-6 text-rose-700 sm:flex">
-          <a href="#amenities" className="hover:text-rose-900">Amenities</a>
-          <a href="#gallery" className="hover:text-rose-900">Gallery</a>
-          <a href="#contact" className="hover:text-rose-900">Contact</a>
+          <a href="#amenities" className="hover:text-rose-900">Servizi</a>
+          <a href="#gallery" className="hover:text-rose-900">Galleria</a>
+          <a href="#contact" className="hover:text-rose-900">Contatti</a>
         </div>
-        <a href="#contact" className="rounded-full bg-rose-600 px-4 py-2 text-sm text-white shadow hover:bg-rose-700">Book</a>
+        <a href="#contact" className="rounded-full bg-rose-600 px-4 py-2 text-sm text-white shadow hover:bg-rose-700">Prenota</a>
       </nav>
     </header>
   );

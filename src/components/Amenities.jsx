@@ -1,12 +1,12 @@
 import { Sparkles, Coffee, Wifi, Bath, Snowflake, Utensils, Sun } from 'lucide-react';
 
 const features = [
-  { icon: Coffee, title: 'Italian Breakfast', desc: 'Fresh pastries, espresso & seasonal fruits' },
-  { icon: Wifi, title: 'Fast Wi‑Fi', desc: 'Reliable connection for work or planning' },
-  { icon: Bath, title: 'Ensuite', desc: 'Private bathroom with fluffy towels' },
-  { icon: Snowflake, title: 'Air Conditioning', desc: 'Cool comfort in summer months' },
-  { icon: Utensils, title: 'Kitchenette', desc: 'Tea corner & minibar essentials' },
-  { icon: Sun, title: 'Sunlit Balcony', desc: 'Soft pink mornings over cobbled streets' },
+  { icon: Coffee, title: 'Colazione italiana', desc: 'Cornetti freschi, espresso e frutta di stagione' },
+  { icon: Wifi, title: 'Wi‑Fi veloce', desc: 'Connessione affidabile per lavorare o pianificare' },
+  { icon: Bath, title: 'Bagno privato', desc: 'Teli morbidi e cura dei dettagli' },
+  { icon: Snowflake, title: 'Aria condizionata', desc: 'Comfort fresco nei mesi estivi' },
+  { icon: Utensils, title: 'Angolo cottura', desc: 'Angolo tè e minibar essenziali' },
+  { icon: Sun, title: 'Balcone soleggiato', desc: 'Mattini rosa sui vicoli in pietra' },
 ];
 
 export default function Amenities() {
@@ -15,7 +15,7 @@ export default function Amenities() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="mb-10 flex items-center gap-2 text-rose-700">
           <Sparkles className="h-5 w-5" />
-          <h2 className="text-2xl font-semibold">Little luxuries</h2>
+          <h2 className="text-2xl font-semibold">Piccoli dettagli di lusso</h2>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map(({ icon: Icon, title, desc }) => (
